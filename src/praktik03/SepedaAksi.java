@@ -7,5 +7,13 @@ public class SepedaAksi {
         s.setHarga(1000);
                 
         s.cetakinfo();
+        System.out.println("====================");
+        System.out.print("Merknya    : ");
+        System.out.println(s.getMerk());
+        System.out.print("Warnanya   : ");
+        System.out.println(s.getWarna());
+        System.out.print("Harganya   : ");
+        System.out.println(s.getHarga());
+        
     }
 }
