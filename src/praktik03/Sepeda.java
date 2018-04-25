@@ -10,6 +10,8 @@ public class Sepeda {
     double harga;
     
     void cetakinfo(){
-        System.out.println("Merk    : "+merk+ " Warna   : "+warna+ "Harga   : "+harga);
+        System.out.println("Merk     : "+merk);
+        System.out.println("Warna    : "+warna);
+        System.out.println("Harga    : "+harga);
     }
 }
