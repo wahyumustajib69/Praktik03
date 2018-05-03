@@ -6,5 +6,12 @@ public class KudaAksi {
         x.setWarna("HITAM");
         x.setHarga(100);
         x.cetakinfo();
+        System.out.println("CARA 2=========");
+        System.out.println("Jenis: ");
+        System.out.println(x.getJenis());
+        System.out.println("Warna: ");
+        System.out.println(x.getWarna());
+        System.out.println("Harga: ");
+        System.out.println(x.getHarga());
     }
 }
