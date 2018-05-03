@@ -1,7 +1,7 @@
 package praktik03;
 public class Kuda {
-    String jenis,warna;
-    double harga;
+    private String jenis,warna;
+    private double harga;
     
     void cetakinfo(){
         System.out.println("Jenis Kuda \t: "+jenis+"\n"+
